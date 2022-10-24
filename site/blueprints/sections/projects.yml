@@ -1,0 +1,7 @@
+type: pages
+label: Projects
+parent: kirby.page("projects")
+info: "{{ page.published }}"
+template: project
+empty: No project yet
+sortBy: date desc

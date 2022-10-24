@@ -1,0 +1,36 @@
+title: project
+
+columns:
+  main:
+    width: 1/2
+    sections:
+      fields:
+        type: fields
+        fields:
+          Project:
+            label: Project Title 
+            type: text
+            placeholder: Title...
+
+          description:
+            label: Description
+            type: textarea
+            size: medium
+            placeholder: Description ...
+  second:
+    width: 1/2
+    sections: 
+      fields2:
+        type: fields
+        fields:
+          link:
+            label: Link
+            type: url
+          tag:
+            label: Tag
+            type: text
+
+
+
+      
+

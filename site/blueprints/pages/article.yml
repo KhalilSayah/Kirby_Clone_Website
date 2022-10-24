@@ -1,0 +1,36 @@
+title : Article 
+
+
+columns :
+  first:  
+    width : 1/2
+    sections:
+      fileds:
+        type : fields
+        fields:
+          description : 
+            label: Title
+            type: text
+            size: medium
+            placeholder: Title...
+
+          Contents:
+            label : Content
+            type: textarea
+            size: huge
+      
+          
+  second : 
+    width : 1/2
+    sections:
+      fields:
+        type : fields
+        fields:
+          Date :
+            label: Release on
+            type : date 
+            default : now
+
+          Link : 
+            label: Link of publication
+            type: url

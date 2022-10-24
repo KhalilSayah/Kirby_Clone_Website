@@ -1,0 +1,34 @@
+title: Site
+
+columns:
+  # The first column has one section for the subpages of the `photography` page in card layout
+  # It reuses the pages section defined in `/site/blueprints/sections/albums.yml`
+  - width: 1/3
+    sections:
+      projects: sections/projects
+      d_project:
+        label: Draft Projects
+        extends: sections/projects
+        status: draft
+      u_project:
+        label: Unlisted Projects
+        extends: sections/projects
+        status: unlisted
+      
+  # The second column has two sections, `notes` and `pages`
+  - width: 1/3
+    sections:
+      publications: sections/publications
+      d_publication:
+        label: Draft Articles
+        extends: sections/publications
+        status: draft
+      u_publication:
+        label: Unlisted Publication
+        extends: sections/publications
+        status: unlisted
+
+  - width: 1/3
+    sections:
+      services: sections/services
+      

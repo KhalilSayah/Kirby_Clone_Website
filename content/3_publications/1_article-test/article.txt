@@ -1,0 +1,71 @@
+Title: Article test
+
+----
+
+Description: Conseils pour la création d’un mot de passe robuste
+
+----
+
+Contents:
+
+Il est préférable de respecter plusieurs critères dans la sélection d'un bon mot de passe :
+
+utiliser un mot de passe unique par service
+avoir un minimum de 15 caractères avec des variantes est recommandé (majuscule, minuscule, chiffres, caractères spéciaux)
+éviter des mots de passe qui ne sont pas aléatoires, c'est-à-dire il ne faut pas utiliser des informations personnelles (date de naissance par exemple) ou des mots faciles à identifier (nom du site, date en cours, etc.).
+L'utilisation d'une “pass phrase” est mieux pour avoir un mot de passe solide. C'est-à-dire plusieurs mots de suite où l'on remplace des caractères avec des chiffres et des caractères spéciaux.
+
+Exemple d’une pass phrase :
+
+Le mot progrès n'aura aucun sens tant qu'il y aura des enfants malheureux.
+Vous pouvez transformer la phrase en :
+
+L3moTprogr3snaUraaUcunS3nsTantQuilYauRadeS3nfaNtsmAlheUreuX.
+Le générateur de la CNIL peut vous aider
+
+Compléter la sécurité de son compte avec l’authentification à deux facteurs (A2F)
+Un mot de passe robuste et unique protège l’accès à vos comptes, mais il est préférable d'ajouter une couche supplémentaire de sécurité à vos comptes car les mots de passe ne sont pas infaillibles. L’authentification à deux facteurs ajoute une protection supplémentaire en créant un code via une application à chaque connexion à un compte. Le code A2F s'ajoute à la protection du mot de passe.
+
+Le plus simple pour accéder aux codes est d'installer une application mobile comme andOTP pour Android ou FreeOTP pour iOS.
+
+À chaque connexion, il faudra ouvrir l'application d'authentification à deux facteurs pour obtenir le code pour pouvoir se connecter. Cette sécurité est fortement recommandé pour les services importants (banques, hébergements, réseaux sociaux, etc.).
+
+Il est aussi possible d'utiliser une clé de sécurité comme une YubiKey ou une Nitrokey pour configurer une A2F.
+Un sms peut aussi servir à recevoir un code de sécurité, mais cette méthode est peu recommandée car elle présente des failles de sécurité.
+
+Comment gérer tous les mots de passe
+Avec la multitude de services en ligne, il est très difficile de respecter ces règles. Un gestionnaire de mot de passe permet de simplifier la gestion des mots de passe.
+
+KeePassXC, un gestionnaire de mots de passe local
+KeePassXC est un gestionnaire de mots de passe, c’est un coffre-fort numérique. C’est un outil qui va stocker et organiser les mots de passe dans une base de données chiffrée sur votre ordinateur.
+
+KeePassXC est un gestionnaire de mots de passe local, gratuit, libre et sa sécurité a été reconnu par des professionnels de la sécurité. Il est plus difficile d'usage qu'un gestionnaire de mots de passe dans le cloud, mais il offre plus de contrôle sur ses données. Pour un service plus simple d'utilisation avec un stockage en ligne, Bitwarden est une bonne solution.
+
+KeePassXC est disponible sur tous les supports (Linux, Windows et Mac) et même mobile. Les mots de passe sont chiffrés, ce qui rend ce système plus sécurisé qu’un simple tableur. En effet pour déverrouiller KeepassXC, vous devez retenir un mot de passe principal qui permet d’ouvrir (déchiffrer) la base de données. Ce mot de passe doit être très robuste pour assurer la sécurité du coffre fort.
+
+Pour commencer il faut télécharger la version officielle de KeePassXC
+
+Télécharger KeePassXC
+La première étape est de créer sa base de mots de passe (Fichier-> Nouvelle base de données) et saisir un nom pour le nouveau fichier kdbx (par rexemple coffre-fort). Ce fichier va contenir les mots de passe. Il faudra ouvrir ce fichier pour accéder à vos mots de passe en saissisant le mot de passe principal pour déchiffrer les mots de passe.
+
+Il est possible d'ajouter de nouveaux mots de passe via le menu. Chaque mot de passe contient un nom, une URL, un mot de passe et si nécessaire des notes. Si vous utilisiez un autre logiciel, il est possible d’importer sa base de données dans KeePassXC.
+
+Je recommande même de stocker le coffre-fort des mots de passe sur un disque externe ou une clé USB pour rendre les mots de passe uniquement accessibles lorsqu'ils sont nécessaires.
+
+Keepass sur navigateur
+Il existe une extension pour Firefox qui permet de faciliter le copier-coller des mots de passe sur navigateur. Vous devez installer l’extension sur Firefox et configurer Keepass pour le lier à l’extension (paramètres>navigateur extension>activer). 
+
+Synchroniser ces mots de passe
+Il est possible de sauvegarder sa base de données dans le cloud pour la synchroniser. Elle est protégée par un mot de passe ce qui protège vos mots de passe. Mais nous recommandons d'utiliser un outil de cryptage (VeraCrypt ou Cryptomator) pour ajouter une couche de sécurité supplémentaire. Vous pouvez utiliser un service de cloud répandu (Dropbox, Drive, etc.), mais aussi un cloud qui respecte mieux votre vie privée comme disroot.org ou Kdrive.
+
+----
+
+Date: 2022-10-19
+
+----
+
+Link: https://www.pikselkraft.com/nos-services#section-contact
+
+----
+
+Uuid: 5sC1grY1VoeoXNFb

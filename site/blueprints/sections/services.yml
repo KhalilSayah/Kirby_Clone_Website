@@ -1,0 +1,7 @@
+type: pages
+label: Services
+parent: kirby.page("services")
+info: "{{ page.published }}"
+template : service
+empty: No service available yet
+sortBy: date desc

@@ -1,0 +1,21 @@
+title : Service 
+
+
+columns :
+  first:  
+    
+    sections:
+      fileds:
+        type : fields
+        fields:
+          Service : 
+            label: Title
+            type: text
+            size: medium
+            placeholder: Title...
+
+          description:
+            label : Description
+            type: textarea
+            size: medium
+      

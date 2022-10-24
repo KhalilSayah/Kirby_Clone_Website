@@ -1,0 +1,7 @@
+type: pages
+label: Publications
+parent: kirby.page("publications")
+info: "{{ page.published }}"
+template : article
+empty: No publication yet
+sortBy: date desc
